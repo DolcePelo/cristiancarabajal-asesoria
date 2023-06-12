@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    // border: 1px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+//--------------------------- VARIABLES -----------------------------------//
+
+@import '_variables.scss';
+
+//----------------------------- HEADER ------------------------------------//
+
+@import '_header.scss';

@@ -1,0 +1,89 @@
+// ---------------------------- PRIMER HEADER -------------------------------//
+
+.primer__header {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: $color-tertiary;
+}
+
+.element__primer-header {
+    width: 23.75rem;
+    align-self: center;
+}
+
+.li__element--primer-header {
+    list-style-type: none;
+}
+
+.li__element--primer-header a {
+    text-decoration: none;
+    color: $color-quaternaty;
+}
+
+.social__primer-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social__primer-header a {
+    color: $color-quaternaty;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 1.5rem;
+}
+
+// ---------------------------- SEGUNDO HEADER ------------------------------//
+
+.segundo__header {
+    display: flex;
+    justify-content: space-between;
+    height: 7.2rem;
+}
+
+.logo {
+    margin: .3rem 0 .3rem 6.5rem;
+    width: 15rem;
+    height: 6.8rem;
+}
+
+.menu {
+    margin-right: 10rem;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 3rem 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $color-primary;
+    position: relative;
+    z-index: 1;
+}
+
+.menu li a::before {
+    content: "";
+    position: absolute;
+    height: 1.8rem;
+    top: 1;
+    right: 0;
+    bottom: 0;
+    left: 100%;
+    background-color: $color-secondary;
+    opacity: 1;
+    transition: all 0.8s ease;
+    z-index: -1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu li a:hover::before {
+    right: -5px;
+    left: -9px;
+    opacity: .2;
+}
