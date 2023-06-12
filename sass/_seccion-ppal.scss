@@ -1,0 +1,75 @@
+.seccion__principal {
+    height: 56.2rem;
+}
+
+.circuloChico {
+    height: 30rem;
+    width: 30rem;
+    position: absolute;
+    top: 0;
+    left: -28rem;
+    opacity: .4;
+    animation: movimientoCircular 11s infinite linear alternate;
+    transform-origin: center center ;
+}
+
+@keyframes movimientoCircular {
+    0% {
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(15rem);
+    }
+
+    50%{
+        transform: translateX(15rem) translateY(0);
+    }
+
+    100% {
+        transform: translateX(15rem) translateY(15rem);
+    }
+}
+
+
+.seccion__principal {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 1.4fr;
+    grid-template-rows: min-content min-content min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "titulo-ppal titulo-ppal img"
+    "subtitulo subtitulo img"
+    "subtitulo subtitulo img";
+    position: relative;
+}
+
+.titulo__principal {
+    grid-area: titulo-ppal;
+    font-size: 4.8rem;
+    line-height: 6rem;
+    margin: 2rem 0 0 3.5rem;
+    position: absolute;
+    width: 52rem;
+    color: $color-primary;
+}
+
+.imagen__principal {
+    height: 48rem;
+    width: 48rem;
+    object-fit: cover;
+    grid-area: img;
+    margin-right: 1.5rem;
+}
+
+.titulo__secundario {
+    grid-area: subtitulo;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 3.5rem;
+    color: $color-quaternaty;
+}
