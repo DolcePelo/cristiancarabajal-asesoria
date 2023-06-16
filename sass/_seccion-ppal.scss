@@ -1,6 +1,3 @@
-.seccion__principal {
-    height: 56.2rem;
-}
 
 .circuloChico {
     height: 30rem;
@@ -9,30 +6,31 @@
     top: 0;
     left: -28rem;
     opacity: .4;
-    animation: movimientoCircular 11s infinite linear alternate;
+    animation: movimientoCircular 21s infinite linear alternate;
     transform-origin: center center ;
 }
 
 @keyframes movimientoCircular {
     0% {
-        transform: translateX(0);
+        transform: translateX(0) rotate(0deg);
     }
 
     50%{
-        transform: translateX(15rem);
+        transform: translateX(15rem) rotate(90deg);
     }
 
     50%{
-        transform: translateX(15rem) translateY(0);
+        transform: translateX(15rem) translateY(0) rotate(90deg);
     }
 
     100% {
-        transform: translateX(15rem) translateY(15rem);
+        transform: translateX(15rem) translateY(15rem) rotate(280deg);
     }
 }
 
 
 .seccion__principal {
+    height: 45.04rem;
     display: grid;
     grid-template-columns: 0.8fr 0.8fr 1.4fr;
     grid-template-rows: min-content min-content min-content;
@@ -43,6 +41,11 @@
     "subtitulo subtitulo img"
     "subtitulo subtitulo img";
     position: relative;
+    // border-bottom: 0.2px solid $color-tertiary;
+    -webkit-box-shadow: 0px 10px 18px 0px rgba(51,51,51,0.54);
+    -moz-box-shadow: 0px 10px 18px 0px rgba(51,51,51,0.54);
+    box-shadow: 0px 10px 18px 0px rgba(51,51,51,0.54);;    
+    
 }
 
 .titulo__principal {
@@ -56,8 +59,8 @@
 }
 
 .imagen__principal {
-    height: 48rem;
-    width: 48rem;
+    height: 45rem;
+    width: 47.5rem;
     object-fit: cover;
     grid-area: img;
     margin-right: 1.5rem;
@@ -73,3 +76,11 @@
     left: 3.5rem;
     color: $color-quaternaty;
 }
+
+// .divisor {
+//     position: absolute;
+//     top: 55.3rem;
+//     width: 100%;
+//     color: $color-quaternaty;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+// }
