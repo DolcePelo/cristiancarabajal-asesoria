@@ -1,0 +1,47 @@
+.titulo__servicios {
+    text-align: center;
+    margin-top: 4rem;
+    color: $color-primary;
+}
+
+
+.container__servicios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__servicios {
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    margin: 1.3rem;
+}
+
+.card__servicios-titulo {
+    font-size: 1rem;
+    text-align: center;
+    color: $color-primary;
+    margin-top: .3rem;
+}
+
+.card__servicios-imagen {
+    height: 10rem;
+    margin-top: .5rem;
+    object-fit: cover;
+}
+
+.card__servicios-descripcion {
+    font-size: .9rem;
+    font-weight: 500;
+    padding: .5rem;
+}
+
+.card__servicios-descripcion span a {
+    color: $color-primary;
+    text-decoration: none;
+}

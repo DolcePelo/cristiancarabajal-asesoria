@@ -249,6 +249,7 @@ header {
   white-space: nowrap;
   overflow: hidden;
   height: 15rem;
+  border-bottom: 3px solid #FFCC00;
 }
 
 .logo__marcas-litoral {
@@ -264,4 +265,68 @@ header {
 
 .logo__marcas-muter {
   margin-left: -4rem;
+}
+
+.separador {
+  height: 2rem;
+  background-color: #333333;
+}
+
+.titulo__servicios {
+  text-align: center;
+  margin-top: 4rem;
+  color: #003366;
+}
+
+.container__servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card__servicios {
+  height: 20rem;
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 2px 2px 8px 4px rgba(211, 211, 211, 0.8196078431);
+          box-shadow: 2px 2px 8px 4px rgba(211, 211, 211, 0.8196078431);
+  border-radius: 15px;
+  margin: 1.3rem;
+}
+
+.card__servicios-titulo {
+  font-size: 1rem;
+  text-align: center;
+  color: #003366;
+  margin-top: 0.3rem;
+}
+
+.card__servicios-imagen {
+  height: 10rem;
+  margin-top: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__servicios-descripcion {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+.card__servicios-descripcion span a {
+  color: #003366;
+  text-decoration: none;
 }

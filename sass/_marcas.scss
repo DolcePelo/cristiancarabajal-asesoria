@@ -20,10 +20,10 @@
     white-space: nowrap;
     overflow: hidden;
     height: 15rem;
-    // border-bottom: 1px solid $color-tertiary;
+    border-bottom: 3px solid $color-quinary;
 }
 
-.logo__marcas-litoral {
+.logo__marcas-litoral { 
     width: 15rem;
     height: 15rem;
 }
@@ -36,4 +36,9 @@
 
 .logo__marcas-muter {
     margin-left: -4rem;
+}
+
+.separador {
+    height: 2rem;
+    background-color: $color-quaternaty;
 }
