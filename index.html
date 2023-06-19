@@ -96,12 +96,12 @@
         </section>
         
 
-        <section class="servicios">
-            <h2 class="titulo__servicios">Servicios</h2>
+        <h2 class="titulo__servicios">Servicios</h2>
+        <!-- <section class="servicios">
 
-            <div class="container__servicios">
-
-                <div class="card__servicios">
+            <div class="container__servicios"> -->
+                <!-- <div class="slider__servicios"> -->
+                <!-- <div class="card__servicios">
                     <h3 class="card__servicios-titulo">Gestion integral de impuestos</h3>
                     <img src="./assets/servicios/servicio-1.png" alt="" class="card__servicios-imagen">
                     <p class="card__servicios-descripcion">Seguimiento, optimización y cumplimiento de los principales impuestos (iva - iibb - tasa de seg e higiene) <span> <a href="#">leer más...</a></span></p>
@@ -141,9 +141,38 @@
                     <h3 class="card__servicios-titulo">Habilitaciones Municipales seguimiento Seg. e Higiene</h3>
                     <img src="./assets/servicios/servicio-8.png" alt="" class="card__servicios-imagen">
                     <p class="card__servicios-descripcion">Brindar soluciones para que tu empresa cumpla los requisitos legales y normativas en materia de habilitaciones. <span> <a href="#">leer más...</a></span></p>
-                </div>
+                </div> -->
+
+            <!-- </div> -->
+
+            <!-- <div class="slider__nav">
+                <div class="slider__nav-left"><img src="./assets/flecha-izquierda.png" alt="Flecha izquierda"></div>
+                <div class="slider__nav-right"><img src="./assets/flecha-derecha.png" alt="Flecha derecha"></div>
             </div>
-        </section>
+
+            </div>
+        </section> -->
+
+        <div class="slider-container" item-display-d="4" item-display-t="3" item-display-m="1">
+            <div class="slider-width">
+
+                <div class="item">
+                    <h3 class="item-titulo">Gestion integral de impuestos</h3>
+                    <img src="./assets/servicios/servicio-1.png" alt="" class="item-imagen">
+                    <p class="item-descripcion">Seguimiento, optimización y cumplimiento de los principales impuestos (iva - iibb - tasa de seg e higiene) <span> <a href="#">leer más...</a></span></p>
+                </div>
+
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+                <div class="item">8</div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-prev" onclick="prev()">Prev</button>
+        <button type="button" class="btn" onclick="next()">Next</button>
 
         <section class="sobreMi">
             <img src="" alt="" class="imagen1__sobreMi">
@@ -161,6 +190,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0e72932d81.js" crossorigin="anonymous"></script>
+    <script src="/js/myscript.js"></script>
 </body>
 
 </html>
