@@ -1,0 +1,37 @@
+.sobreMi {
+    background-color: $color-quaternaty;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    border-top: 3px solid $color-quinary;
+    border-bottom: 3px solid $color-quinary;
+    margin-top: 2.5rem;
+}
+
+.imagen1__sobreMi, .imagen2__sobreMi {
+    width: 20rem;
+    height: 20rem;
+}
+
+.container__sobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+.titulo__sobreMi {
+    font-size: 2rem;
+    color: $color-quinary;
+    margin-bottom: 1rem;
+}
+
+.descripcion__sobreMi {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.descripcion__sobreMi span a {
+    color: $color-quinary;
+    text-decoration: none;
+}
