@@ -69,7 +69,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.5); /* Color de fondo translúcido */
+  background-color: rgb(255, 255, 255); /* Color de fondo translúcido */
   -webkit-backdrop-filter: blur(0.5px);
           backdrop-filter: blur(0.5px); /* Desenfoque del fondo */
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -375,6 +375,20 @@ header {
   margin-bottom: 1rem;
 }
 
+.ul__sobreMi {
+  list-style: none;
+}
+
+.ul__sobreMi li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f200"; /* Código Unicode del ícono chart-pie */
+  font-weight: 900;
+  font-size: 15px;
+  color: #003366;
+  line-height: 1.7;
+  padding-right: 10px;
+}
+
 .descripcion__sobreMi {
   color: white;
   font-size: 1.2rem;
@@ -383,6 +397,73 @@ header {
 .descripcion__sobreMi span a {
   color: #FFCC00;
   text-decoration: none;
+}
+
+.titulo__sobreMi-page {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+.cuerpo__sobreMi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sobreMi-video {
+  width: 35rem;
+  height: 40rem;
+  margin: 0 7rem 0 0;
+}
+
+.cuerpo__sobreMi-page {
+  margin: 3rem 8rem 3rem 8rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.divisor {
+  height: 10rem;
+  width: 80%;
+  margin-left: 10rem;
+}
+
+.cuerpo__sobreMi2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cuerpo__sobreMi2-img {
+  height: 30rem;
+  width: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin: 3rem 3rem 5rem 8rem;
+}
+
+.container__sobreMi2 {
+  border: 4px solid #FFCC00;
+  width: 47rem;
+  height: 17rem;
+  margin: 8rem 9rem 0 3rem;
+  padding: 1.2rem;
+}
+
+.titulo__sobreMi2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.descricion__sobreMi2 {
+  text-align: center;
+  font-size: 1rem;
 }
 
 footer {
