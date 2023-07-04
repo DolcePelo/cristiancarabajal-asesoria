@@ -337,6 +337,92 @@ header {
   text-decoration: none;
 }
 
+.banner__servicios {
+  background-image: url("../assets/servicios/banner-servicios.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 12rem;
+  background-position: center top -20rem;
+  position: relative;
+}
+
+.banner__servicios::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.banner__servicios h1 {
+  position: relative;
+  z-index: 2;
+  color: #FFCC00;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container__servicios-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 14rem 0 17rem;
+}
+
+.img__servicio1-page {
+  width: 40%;
+}
+
+.container-descripcion__servicios-page {
+  margin: 3.5rem 3rem 0 5rem;
+}
+
+.titulo__servicios-page {
+  color: #003366;
+  font-size: 2rem;
+}
+
+.descripcion__servicios-page {
+  font-size: 1.2rem;
+  margin: 0.7rem 0 1.5rem 0;
+  color: #555555;
+}
+
+.boton__cotiza {
+  background-color: #FFCC00;
+  padding: 0.5rem 1.7rem 0.5rem 1.7rem;
+  cursor: pointer;
+  border: none;
+}
+
+.boton__cotiza a {
+  text-decoration: none;
+  color: #003366;
+}
+
+.container__servicios-page-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.container__servicios-page-reverse > .container-descripcion__servicios-page {
+  margin: 2.5rem 3rem 0 0;
+}
+
+.container__servicios-page-reverse > img {
+  margin-right: 3.5rem;
+}
+
 .sobreMi {
   background-color: #333333;
   display: -webkit-box;
