@@ -1,0 +1,106 @@
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+form {
+    font-family: 'Raleway';
+    color: $color-primary;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 150rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__titulo {
+    font-family: 'Raleway';
+    color: $color-primary;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+form input, form select, form textarea {
+    width: 20%;
+    height: 2.5rem;
+    border-radius: 5px;
+    color: $color-primary;
+    border: 1px solid $color-quinary;
+    margin: 1rem;
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: 'Raleway';
+}
+
+form textarea {
+    width: 30%;
+    height: 10rem;
+}
+
+.actionBtn18 {
+    display: inline-block;
+    position: relative;
+    padding: 2rem 0;
+    margin: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.actionBtn18:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    margin-top: -4px;
+    background: $color-quinary;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    transition: left .3s ease-out;
+    -webkit-transition: left .3s ease-out;
+    -moz-transition: left .3s ease-out;
+}
+.actionBtn18:hover:after {
+    left: 100%;
+}
+.actionBtn18 .lb{
+    position:relative;
+    display: block;
+    z-index: 1;
+    padding-left: 17px;
+    font-size: 16px;
+    color: $color-primary;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: padding .3s ease-out;
+    -webkit-transition: padding .3s ease-out;
+    -moz-transition: padding .3s ease-out;
+}
+.actionBtn18:hover .lb{
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.form-img {
+    width: 40%;
+    height: 56.2rem;
+    object-fit: cover;
+    object-position: -10rem;
+}
+
+.container__form-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -2rem;
+}
