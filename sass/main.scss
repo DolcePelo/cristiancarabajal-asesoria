@@ -8,8 +8,8 @@
 
 .whatsapp {
     position: fixed;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     right: 3.2rem;
     bottom: 4rem;
     z-index: 900;
@@ -26,11 +26,12 @@ img {
 //----------------------------- HEADER ------------------------------------//
 
 @import '_header.scss';
+@import '_header-responsive.scss';
 
 //----------------------------- SECCION PPAL ------------------------------//
 
 @import '_seccion-ppal.scss';
-
+@import '_seccion-ppal-responsive.scss';
 //----------------------------- MARCAS-------------------------------------//
 
 @import '_marcas.scss';

@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px){
+    .seccion__principal{
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-areas: 
+        "titulo-ppal titulo-ppal titulo-ppal"
+        "subtitulo subtitulo subtitulo"
+        "img img img";
+    }
+
+    .titulo__principal {
+        font-size: 2rem;
+        margin-left: 1rem;
+        width: 100%;
+        line-height: 2.8rem;
+    }
+    .titulo__secundario {
+        top: 2rem;
+        left: 1rem;
+    }
+    .imagen__principal {
+        margin-top: 7rem;
+        height: 25rem;
+        width: 27.5rem;
+        z-index: 1000;
+    }
+}
