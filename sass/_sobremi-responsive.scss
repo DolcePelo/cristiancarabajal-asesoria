@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px){
+    .imagen2__sobreMi{
+        display: none;
+    }
+
+    .imagen1__sobreMi{
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        left: .8rem;
+    }
+
+    .sobreMi {
+        display: block;
+        padding-right: 0;
+    }
+}

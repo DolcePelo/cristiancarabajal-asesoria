@@ -11,7 +11,7 @@
   position: fixed;
   height: 4rem;
   width: 4rem;
-  right: 3.2rem;
+  right: 2rem;
   bottom: 4rem;
   z-index: 900;
 }
@@ -186,7 +186,7 @@ header {
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   .ubicacion {
-    display: none;
+    margin-left: 0.8rem;
   }
   .email-span {
     display: none;
@@ -297,7 +297,8 @@ header {
   }
   .titulo__principal {
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-left: 0;
+    padding-left: 1rem;
     width: 100%;
     line-height: 2.8rem;
   }
@@ -308,8 +309,12 @@ header {
   .imagen__principal {
     margin-top: 7rem;
     height: 25rem;
-    width: 27.5rem;
+    width: 27rem;
     z-index: 1000;
+  }
+  .circuloChico {
+    height: 25rem;
+    width: 25rem;
   }
 }
 .titulo__marcas {
@@ -636,6 +641,21 @@ header {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+  .imagen2__sobreMi {
+    display: none;
+  }
+  .imagen1__sobreMi {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 0.8rem;
+  }
+  .sobreMi {
+    display: block;
+    padding-right: 0;
+  }
+}
 .form__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -788,4 +808,16 @@ footer {
 footer .logo {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    height: 5rem;
+  }
+  footer .logo {
+    display: none;
+  }
+  .footer-email {
+    display: none;
+  }
 }

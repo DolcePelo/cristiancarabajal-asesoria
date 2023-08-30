@@ -10,7 +10,7 @@
     position: fixed;
     height: 4rem;
     width: 4rem;
-    right: 3.2rem;
+    right: 2rem;
     bottom: 4rem;
     z-index: 900;
 }
@@ -43,6 +43,7 @@ img {
 //----------------------------- SOBRE MI ----------------------------------//
 
 @import '_sobremi.scss';
+@import '_sobremi-responsive.scss';
 
 //------------------------------ COTIZA -----------------------------------//
 
@@ -51,3 +52,4 @@ img {
 //----------------------------- FOOTER ------------------------------------//
 
 @import '_footer.scss';
+@import '_footer-responsive.scss';
