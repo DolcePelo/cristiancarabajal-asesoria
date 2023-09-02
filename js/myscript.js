@@ -1,8 +1,15 @@
 const hamburgerMenu = document.getElementById('hamburger-menu');
 const mobileMenu = document.querySelector('.mobile-menu');
+let menuOpen = false;
 
-hamburgerMenu.addEventListener('touchstart', (event)=>{
+hamburgerMenu.addEventListener('click', (event)=>{
     event.stopPropagation();
 
-    mobileMenu.style.display = 'block'
+    if (menuOpen){
+        mobileMenu.style.display = 'none';
+        menuOpen = false; 
+    } else {
+        mobileMenu.style.display = 'block';
+        menuOpen = true;
+    }
 })
