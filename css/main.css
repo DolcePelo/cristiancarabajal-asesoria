@@ -280,12 +280,10 @@ header {
 
 .titulo__secundario {
   grid-area: subtitulo;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 3.5rem;
   position: absolute;
-  top: 5rem;
-  left: 3.5rem;
   color: #333333;
 }
 
@@ -305,12 +303,12 @@ header {
   .titulo__secundario {
     top: 2rem;
     left: 1rem;
-    width: 100%;
+    width: 95%;
   }
   .imagen__principal {
     margin-top: 7rem;
     height: 25rem;
-    width: 27rem;
+    width: 100%;
     z-index: 1000;
   }
   .circuloChico {
@@ -549,6 +547,10 @@ header {
   .container__servicios-page-reverse > img {
     margin-right: 0;
     margin-bottom: 0;
+  }
+  #mensaje {
+    width: 80%;
+    height: 8rem;
   }
 }
 .sobreMi {
@@ -938,5 +940,11 @@ footer .logo {
   }
   .footer-email {
     display: none;
+  }
+  .element__footer {
+    display: none;
+  }
+  .container__sobreMi2 {
+    height: 23rem;
   }
 }

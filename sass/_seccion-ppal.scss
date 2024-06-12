@@ -67,19 +67,9 @@
 
 .titulo__secundario {
     grid-area: subtitulo;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 3.5rem;
     position: absolute;
-    top: 5rem;
-    left: 3.5rem;
     color: $color-quaternaty;
 }
-
-// .divisor {
-//     position: absolute;
-//     top: 55.3rem;
-//     width: 100%;
-//     color: $color-quaternaty;
-//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-// }
