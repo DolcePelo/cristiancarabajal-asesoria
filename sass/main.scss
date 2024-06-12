@@ -15,6 +15,12 @@
     z-index: 900;
 }
 
+@media screen and (max-width: 480px) {
+    .whatsapp {
+        display: none;
+    }
+}
+
 img {
     width: 100%;
 }

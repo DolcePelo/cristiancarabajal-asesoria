@@ -16,6 +16,11 @@
   z-index: 900;
 }
 
+@media screen and (max-width: 480px) {
+  .whatsapp {
+    display: none;
+  }
+}
 img {
   width: 100%;
 }
@@ -948,5 +953,11 @@ footer .logo {
   }
   .container__sobreMi2 {
     height: 23rem;
+  }
+  .element__primer-header {
+    width: 13.5rem;
+  }
+  .li__element--primer-header {
+    padding: 1rem;
   }
 }
