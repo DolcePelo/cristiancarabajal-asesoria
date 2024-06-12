@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+    .banner__servicios {
+        padding: 1rem;
+    }
+
+    .container__servicios-page {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    .img__servicio1-page {
+        width: 100%;
+    }
+
+    .container-descripcion__servicios-page {
+        margin: 2rem 0;
+    }
+
+    .titulo__servicios-page {
+        font-size: 1.5rem;
+    }
+
+    .descripcion__servicios-page {
+        font-size: 1rem;
+        margin: .5rem 0 1rem 0;
+    }
+
+    .boton__cotiza {
+        padding: .4rem 1.5rem;
+    }
+
+    .container__servicios-page-reverse > .container-descripcion__servicios-page {
+        margin: 2rem 0;
+    }
+
+    .container__servicios-page-reverse > img {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}

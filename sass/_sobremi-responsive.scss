@@ -14,4 +14,58 @@
         display: block;
         padding-right: 0;
     }
+    .cuerpo__sobreMi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobreMi-video {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .cuerpo__sobreMi-page {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .divisor {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cuerpo__sobreMi2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuerpo__sobreMi2-img {
+        width: 80%;
+        height: auto;
+        margin: 2rem 0;
+    }
+
+    .container__sobreMi2 {
+        width: 90%;
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .titulo__sobreMi2 {
+        margin-bottom: .3rem;
+    }
+
+    .descricion__sobreMi2 {
+        font-size: .9rem;
+    }
+
+    .titulo__sobreMi-page {
+        margin-bottom: 1rem;
+    }
+
+    .descripcion__sobreMi-page {
+        margin-bottom: 2rem;
+    }
 }

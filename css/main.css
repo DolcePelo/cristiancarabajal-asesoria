@@ -513,6 +513,44 @@ header {
   margin-right: 3.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  .banner__servicios {
+    padding: 1rem;
+  }
+  .container__servicios-page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 2rem;
+  }
+  .img__servicio1-page {
+    width: 100%;
+  }
+  .container-descripcion__servicios-page {
+    margin: 2rem 0;
+  }
+  .titulo__servicios-page {
+    font-size: 1.5rem;
+  }
+  .descripcion__servicios-page {
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+  .boton__cotiza {
+    padding: 0.4rem 1.5rem;
+  }
+  .container__servicios-page-reverse > .container-descripcion__servicios-page {
+    margin: 2rem 0;
+  }
+  .container__servicios-page-reverse > img {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
 .sobreMi {
   background-color: #333333;
   display: -webkit-box;
@@ -656,6 +694,60 @@ header {
     display: block;
     padding-right: 0;
   }
+  .cuerpo__sobreMi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sobreMi-video {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .cuerpo__sobreMi-page {
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .divisor {
+    width: 100%;
+    margin: 0;
+  }
+  .cuerpo__sobreMi2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cuerpo__sobreMi2-img {
+    width: 80%;
+    height: auto;
+    margin: 2rem 0;
+  }
+  .container__sobreMi2 {
+    width: 90%;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .titulo__sobreMi2 {
+    margin-bottom: 0.3rem;
+  }
+  .descricion__sobreMi2 {
+    font-size: 0.9rem;
+  }
+  .titulo__sobreMi-page {
+    margin-bottom: 1rem;
+  }
+  .descripcion__sobreMi-page {
+    margin-bottom: 2rem;
+  }
 }
 .form__container {
   display: -webkit-box;
@@ -787,6 +879,32 @@ form textarea {
   margin-bottom: -2rem;
 }
 
+@media screen and (max-width: 480px) {
+  .container__form-img {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .form__container {
+    width: 80%;
+  }
+  form {
+    width: 100%;
+    max-width: none;
+  }
+  form input {
+    width: 20rem;
+  }
+}
 footer {
   background-color: #E6E6E6;
   height: 9rem;
